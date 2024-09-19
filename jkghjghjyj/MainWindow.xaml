@@ -1,0 +1,33 @@
+﻿<Window x:Class="vdfvdfvdf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:vdfvdfvdf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="F" HorizontalAlignment="Left" Margin="661,223,0,0" VerticalAlignment="Top" Height="96" Width="103" FontSize="20" Background="#FFE7EDCB" Foreground="Black" Click="Button_Click"/>
+        <Button Content="E" HorizontalAlignment="Left" Margin="553,223,0,0" VerticalAlignment="Top" Height="96" Width="103" FontSize="20" Background="#FF737373" Foreground="Black" Click="Button_Click"/>
+        <Button Content="D" HorizontalAlignment="Left" Margin="445,223,0,0" VerticalAlignment="Top" Height="96" Width="103" FontSize="20" Background="#FF5096E4" Foreground="Black" Click="Button_Click"/>
+        <Button Content="C" HorizontalAlignment="Left" Margin="337,223,0,0" VerticalAlignment="Top" Height="96" Width="103" FontSize="20" Background="#FF51C14D" Foreground="Black" Click="Button_Click"/>
+        <Button Content="B" HorizontalAlignment="Left" Margin="229,223,0,0" VerticalAlignment="Top" Height="96" Width="103" FontSize="20" Background="#FFBD1E1E" Foreground="Black" Click="Button_Click"/>
+        <Button Content="A" HorizontalAlignment="Left" Margin="121,223,0,0" VerticalAlignment="Top" Height="96" Width="103" FontSize="20" Background="#FFD2FF00" Foreground="Black" Click="Button_Click"/>
+        <Label Content="Последнии документы" HorizontalAlignment="Left" Margin="26,18,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
+        <Label Content="1.txt" HorizontalAlignment="Left" Margin="26,106,0,0" VerticalAlignment="Top"/>
+        <Label Content="2.txt" HorizontalAlignment="Left" Margin="26,150,0,0" VerticalAlignment="Top"/>
+        <Label Content="3.txt" HorizontalAlignment="Left" Margin="26,0,0,0" VerticalAlignment="Center"/>
+        <Label Content="4.txt" HorizontalAlignment="Left" Margin="26,258,0,0" VerticalAlignment="Top"/>
+        <Label Content="5.txt" HorizontalAlignment="Left" Margin="26,306,0,0" VerticalAlignment="Top"/>
+        <Label Content="6.txt" HorizontalAlignment="Left" Margin="26,346,0,0" VerticalAlignment="Top"/>
+        <Label Content="1.txt" HorizontalAlignment="Left" Margin="171,93,0,0" VerticalAlignment="Top"/>
+        <Label Content="2.txt" HorizontalAlignment="Left" Margin="226,93,0,0" VerticalAlignment="Top"/>
+        <Label Content="3.txt" HorizontalAlignment="Left" Margin="287,93,0,0" VerticalAlignment="Top"/>
+        <Button Content="Открыть" HorizontalAlignment="Left" Margin="278,29,0,0" VerticalAlignment="Top" Click="Button_Click_2" FontSize="14"/>
+        <Button Content="Сохранить" HorizontalAlignment="Left" Margin="341,29,0,0" VerticalAlignment="Top" Click="Button_Click_2" FontSize="14"/>
+        <Button Content="Закрыть" HorizontalAlignment="Left" Margin="418,29,0,0" VerticalAlignment="Top" Click="Button_Click_2" FontSize="14"/>
+        <Button Content="Обработать" HorizontalAlignment="Left" Margin="480,29,0,0" VerticalAlignment="Top" Click="Button_Click_2" FontSize="14"/>
+        <Button Content="О программе" HorizontalAlignment="Left" Margin="565,29,0,0" VerticalAlignment="Top" Click="Button_Click_2" FontSize="14"/>
+    </Grid>
+</Window>
+    
